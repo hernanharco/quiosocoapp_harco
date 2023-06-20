@@ -4,7 +4,7 @@ import axios from 'axios'
 import AdminLayout from "../layout/AdminLayout"
 import Orden from '../components/Orden'
 
-const admin = () => {
+export default function Admin() {
 
     const fetcher = () => axios('/api/ordenes').then(datos => datos.data)
 
@@ -29,5 +29,3 @@ const admin = () => {
         </AdminLayout>
     )
 }
-
-export default admin

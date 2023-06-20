@@ -215,6 +215,30 @@ utilizando swr -- sirve para obtener los datos
 
  6. Deployment del Proyecto
 
+ *** Para subirlo a git ***
+ echo "# criptos-react" >> README.md
+git init
+git add README.md -> cambiarlo por git add . (para que agregue todo)
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/hernanharco/criptos-react.git
+git push -u origin main
+
+*** Para actualizar el git ***
+actualizar un archivo de en git - cargar otra información
+git checkout  -b ******* main -> se hace una nueva rama
+git add . -> para que agregue solo los archivos que hubieron cambios
+git commit -m "texto texto texto"
+git checkout main
+git merge ****** -> se debe colocar el mismo nombre  que se coloco en  la primera linea
+git branch -d ****** -> vamos a eliminar el branch
+
+vamos a publicarlo nuevamente
+git push -u origin main
+si queremos ver los cambios le damos en History ubicados en github
+para aprender busar pagina
+
+atlassian.com/es/git/tutorials/using-branches
 
 
 
